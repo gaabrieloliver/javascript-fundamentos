@@ -1,8 +1,8 @@
 ## Todo
 
-- [] Variáveis 
-- [] Tipos de dados 
-- [] Números e operadores
+- [x] Variáveis 
+- [x] Tipos de dados 
+- [x] Números e operadores
 - [] boolean e condicionais 
 - [] funcoes 
 - [] objetos 
