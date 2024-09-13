@@ -89,6 +89,7 @@ var total = 10 + 5 * 2 / 2 + 20;
 ### Crie duas expressões que retornem NaN
 ```js
 //RESPOSTA
+
 var expressao1 = 'Teste' / 2;
 var expressao2 = 'Teste' - 2;
 
@@ -96,6 +97,8 @@ console.log(expressao1, expressao2); // NaN NaN
 ```
 ### Somar a string '200' com o número 50 e retornar 250
 ~~~js
+//RESPOSTA
+
 var soma = +'200' + 50;
 
 console.log(soma); // 250
@@ -103,6 +106,8 @@ console.log(soma); // 250
 
 ### Incremente o número 5 e retorne o seu valor incrementado
 ~~~js
+//RESPOSTA
+
 var x = 5;
 
 console.log(++x); // 6
