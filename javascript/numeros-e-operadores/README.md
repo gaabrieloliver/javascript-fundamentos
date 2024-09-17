@@ -6,7 +6,7 @@ var gols = 1000;
 var pi = 3.14; // ponto para decimal
 var exp = 2e10; // 20000000000 
 ```
-### Precisão para até 15 digítos
+ *Precisão para até 15 digítos*
 
 ### Operadores Aritméticos
 ```js
@@ -17,7 +17,7 @@ var divisao = 100 / 2; // 50
 var expoente = 2 ** 4; // 16
 var modulo = 14 % 5; // 4
 ```
-### Lembrando que soma + em Strings serve para concatenar
+*Lembrando que soma + em Strings serve para concatenar*
 
 ### Operadores Aritméticos (Strings)
 ```js
@@ -26,7 +26,7 @@ var subtracao = '100' - 50; // 50
 var multiplicacao = '100' * '2'; // 200
 var divisao = 'Comprei 10' / 2; //NaN (Not a Number)
 ```
-### É possível verificar se uma variável é NaN ou não com a função isNaN()
+*É possível verificar se uma variável é NaN ou não com a função isNaN()*
 
 ### NaN = Not a Number
 ```js
@@ -37,14 +37,14 @@ var pesoPorDois = peso / 2 // NaN (Nota a Number)
 ```
 
 ### A ordem importa
-### Começa por multiplicação e divisão, depois por soma e subtração.
+*Começa por multiplicação e divisão, depois por soma e subtração.*
 ```js
 var total1 = 20 + 5 * 2; // 30
 var total2 = (20 + 5) * 2; // 50
 var total3 = 20 / 2 * 5; // 50
 var soma1 = 10 + 10 + 20 + 30 * 4 / 2 + 10; // 110
 ```
-### Parênteses para priorizar uma expressão
+*Parênteses para priorizar uma expressão*
 
 ### Operadores Aritméticos Unários
 
@@ -57,11 +57,11 @@ var incremento2 = 5;
 console.log(++incremento2); // 6
 console.log(incremento2); // 6
 ```
-### mesma coisa para o decremento ```--x```
+ *mesma coisa para o decremento* ```--x```
 
 ### Operadores Aritméticos Unários
 
-### O ```+``` e ```-``` tenta transformar o valor seguinte em número
+*O ```+``` e ```-``` tenta transformar o valor seguinte em número*
 
 ```js
 var frase = "Isso é um teste";
@@ -76,17 +76,17 @@ console.log(+idade + 5); // 33
 var possuiFaculdade = true;
 console.log(+possuiFaculdade); // 1
 ```
-### O ```-``` antes de um número torna ele negativo
+*O ```-``` antes de um número torna ele negativo*
 
 ## Exercício
-### Qual o resultado da seguinte expressão?
+### 1 - Qual o resultado da seguinte expressão?
 ```js
 var total = 10 + 5 * 2 / 2 + 20;
 
 //RESPOSTA: 35
 ```
 
-### Crie duas expressões que retornem NaN
+### 2 - Crie duas expressões que retornem NaN
 ```js
 //RESPOSTA
 
@@ -95,7 +95,7 @@ var expressao2 = 'Teste' - 2;
 
 console.log(expressao1, expressao2); // NaN NaN
 ```
-### Somar a string '200' com o número 50 e retornar 250
+### 3 - Somar a string '200' com o número 50 e retornar 250
 ~~~js
 //RESPOSTA
 
@@ -104,7 +104,7 @@ var soma = +'200' + 50;
 console.log(soma); // 250
 ~~~
 
-### Incremente o número 5 e retorne o seu valor incrementado
+### 4 - Incremente o número 5 e retorne o seu valor incrementado
 ~~~js
 //RESPOSTA
 
@@ -113,7 +113,7 @@ var x = 5;
 console.log(++x); // 6
 ~~~
 
-### Como dividir o peso por 2?
+### 5 - Como dividir o peso por 2?
 ```js
 var numero = '80';
 var unidade = 'kg';
