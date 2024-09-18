@@ -141,3 +141,98 @@ O ```==``` faz uma comparação não tão estrita e o ```===``` faz uma compara�
 
  *Retorna o primeiro valor true que encontrar*
  
+ ## Switch
+
+ Com o ```switch``` você pode verificar se uma variável é igual à diferentes valores utilizando o ```case```. Caso ela seja igual, você pode fazer alguma coisa e utilizar a palavra chave ```break;``` para cancelar a continuação. O valor de default ocorrerá caso nenhuma das anteriores seja verdadeira.
+
+ ```javascript
+ var corFavorita = 'Azul';
+
+ switch (corFavorita) {
+    case 'Azul':
+        console.log('Olhe para o céu.');
+        break;
+    case 'Vermelho':
+        console.log('Olhe para as rosas.');
+        break;
+    case 'Amarelo':
+        console.log('Olhe para o sol.');
+        break;
+ }
+ ```
+
+ # Exercício
+
+### 1 - Verifique se a sua idade é maior do que a de algum parente
+Dependendo do resultado coloque no console 'É maior', 'É igual', 'É menor'.
+
+```javascript
+var minhaIdade = 28
+var idadePrimo = 24
+
+if(minhaIdade > idadePrimo) {
+    console.log('É maior');
+} else if(minhaIdade === idadePrimo ){
+    console.log('É igual');
+} else {
+        console.log('É menor');
+}
+```
+*RESPOSTA: É maior*
+
+### 2 - Qual valor é retornado na seguinte expressão?
+```javascript
+var expressão = (5 - 2) && (5 - ' ') && (5 - 2);
+
+console.log(expressão);
+```
+*RESPOSTA: 3*
+
+### 3 - Verifique se as seguintes variáveis são Truthy ou Falsy
+
+```javascript
+var nome = 'Gabriel'; 
+var idade = 28; 
+var possuiDoutorado = false; 
+var empregoFuturo; 
+var dinheiroNaConta = 0; 
+
+console.log(!!nome, !!idade, !!possuiDoutorado, !!empregoFuturo, !!dinheiroNaConta);
+```
+*RESPOSTA: true true false false false*
+
+### 4 - Compare o total de habitantes do Brasil com China (valor em milhões)
+
+```javascript
+var brasil = 207;
+var china = 1340;
+
+if(brasil > china) {
+    console.log('Brasil tem mais habitantes');
+} else {
+    console.log('Brasil tem menos habitantes');
+}
+```
+*RESPOSTA: Brasil tem menos habitantes*
+
+### 5 - O que irá aparecer no console?
+
+```javascript
+if(('Gato' === 'gato') && (5 > 2)) {
+    console.log('Verdadeiro');
+} else {
+    console.log('Falso');
+}
+```
+*RESPOSTA: Falso*
+
+### 6 - O que irá aparecer no console?
+```javascript
+if(('Gato' === 'gato') || (5 > 2)) {
+    console.log('Gato' && 'Cão');
+} else {
+    console.log('Falso');
+}
+```
+
+*RESPOSTA: Cão*
