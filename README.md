@@ -5,7 +5,7 @@
 - [x] [Números e Operadores](https://github.com/gaabrieloliver/Origamid/blob/main/javascript/numeros-e-operadores/README.md)
 - [x] [Boolean e Condicionais](https://github.com/gaabrieloliver/Origamid/blob/main/javascript/boolean-e-condicionais/boolean-e-condicionais.md)
 - [x] [Funções](https://github.com/gaabrieloliver/javascript-fundamentos/blob/main/javascript/functions/functions.md) 
-- [] Objetos 
+- [x] [Objetos](https://github.com/gaabrieloliver/javascript-fundamentos/blob/main/javascript/objetos/objetos.md) 
 - [] Tudo é objeto 
 - [] Arrays e Loops 
 - [] Atribuição e Ternário
